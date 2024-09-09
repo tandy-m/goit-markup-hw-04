@@ -93,7 +93,8 @@ address {
   margin-left: auto;
 }
 .contacts-list-link {
-  padding: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: block;
 }
 /**--------------hero section------------------**/
