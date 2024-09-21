@@ -41,6 +41,9 @@ body {
 button {
   cursor: pointer;
 }
+.icons {
+  fill: none;
+}
 /**-------------header-------------------**/
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -79,10 +82,8 @@ button {
   color: #2e2f42;
 }
 .nav-link {
-  color: #404bbf;
   padding: 24px 0;
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   display: block;
@@ -99,10 +100,13 @@ button {
   background-color: #404bbf;
   border-radius: 2px;
 }
-.logo-link:hover {
-  color: #404bbf;
+.status::after {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-property: inherit;
+  transition-duration: inherit;
+  transition-delay: inherit;
 }
-
+.logo-link:hover,
 .logo-link:focus {
   color: #404bbf;
 }
@@ -130,7 +134,7 @@ address {
   padding: 188px 0;
   background-image: linear-gradient
       (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(/images/people-office.jpg);
+    url(../images/people-office.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
