@@ -514,4 +514,7 @@ display: flex;
 .svg-item-footer {
   fill: #f4f4fd;
 }
+.footer-wraper{
+  display: flex;
+}
 /*  */
