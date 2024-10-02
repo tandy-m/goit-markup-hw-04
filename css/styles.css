@@ -307,7 +307,6 @@ svg {
   width: 40px;
   height: 40px;
   position: relative;
-  /* останнє */
 }
 .social-link {
   width: 100%;
@@ -320,9 +319,7 @@ svg {
   margin-top: 8px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link:hover {
-  background-color: #404bbf;
-}
+.social-link:hover,
 .social-link:focus {
   background-color: #404bbf;
 }
@@ -530,7 +527,3 @@ svg {
 .svg-item-footer {
   fill: #f4f4fd;
 }
-.footer-wraper {
-  display: flex;
-}
-/*  */
